@@ -1,4 +1,4 @@
-#  Gmail Scam Filter Detection using Reinforcement Learning
+#  Bypassed Email Scam Detection Using Reinforcement Learning
 
 An academic research project focused on designing and implementing reinforcement learning (RL) algorithms in simulated environments such as OpenAI Gym and PyBullet. The project emphasizes algorithm development, result analysis, and academic deliverables including documentation, presentations, and research papers.
 
