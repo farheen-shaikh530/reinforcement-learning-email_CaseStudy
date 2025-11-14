@@ -36,7 +36,7 @@ Key aspects of the project include:
 - Visualizes prediction confidence
 - Can be extended to alert or auto-flag emails
 
-## 📁 Use Cases
+##  Use Cases
 
 - Real-time inbox threat detection  
 - Educational tool for phishing awareness  
