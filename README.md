@@ -1,64 +1,74 @@
 #  Bypassed Email Scam Detection Using Reinforcement Learning
 
-An academic research project focused on designing and implementing reinforcement learning (RL) algorithms in simulated environments such as OpenAI Gym and PyBullet. The project emphasizes algorithm development, result analysis, and academic deliverables including documentation, presentations, and research papers.
+AI that learns how scammers think — and stops them before they reach your inbox.
 
-## Overview
+Traditional email filters rely on static rules. Modern phishing attacks don’t.
+They adapt, evolve, and bypass outdated models — so this system uses Reinforcement Learning (RL) to adapt too.
 
-This project explores reinforcement learning techniques to solve control, robotics, and decision-making problems in simulation.
-Key aspects of the project include:
-	•	Implementing and testing RL algorithms (e.g., Q-learning, Deep Q-Networks, Policy Gradient methods).
-	•	Running experiments in OpenAI Gym and PyBullet environments.
-	•	Collecting and analyzing results to evaluate performance.
-	•	Preparing technical documentation, research notes, and visualizations.
-	•	Supporting faculty-led academic research through weekly progress reviews.
+This project builds an intelligent email security engine that simulates attacker behavior, learns from patterns, and strengthens itself with every iteration. It connects securely to Gmail, processes real emails, and classifies threats using NLP and RL.
 
-## Tech Stack
 
-- **Languages:** Python  
-- **Libraries & Framework:** scikit-learn, TensorFlow, Keras, nltk, spaCy , PyTorch / TensorFlow, NumPy, Matplotlib, OpenAI Gym, PyBullet 
-- **API Integration:** Gmail API (OAuth2.0)  
-- **ML Models:** Naive Bayes, LSTM  
-- **Deployment:** Streamlit / Flask (for UI)
+## Why This Project?
+
+Because static filters fail.
+This system creates a self-improving security loop that:
+	•	Learns scam patterns through RL (Q-Learning, DQN, Policy Gradient)
+	•	Runs attacker–defender simulations using OpenAI Gym + PyBullet
+	•	Uses NLP (spaCy, NLTK, LSTM) for language analysis
+	•	Connects to Gmail securely (OAuth 2.0)
+	•	Visualizes confidence and threat predictions
+
+It’s not just a classifier —
+it’s a cyber-immune system.
+
   
-
-## Responsibilities
-- Design and implement reinforcement learning algorithms in simulation environments.
-- Analyze experimental results and create detailed documentation.
-- Assist in preparing research presentations and academic papers.
-- Meet weekly with faculty supervisors to report progress and troubleshoot challenges.
-
 
 ## Features
 
-- Connects securely to Gmail using OAuth2.0
-- Extracts and pre-processes email content using NLP techniques
-- Classifies emails as "Scam" or "Safe"
-- Visualizes prediction confidence
-- Can be extended to alert or auto-flag emails
+	•	 Secure Gmail integration via OAuth 2.0
+	•	 RL agents that learn classification boundaries over time
+	•	 NLP-based email preprocessing (tokenization, embeddings, text cleaning)
+	•	 Confidence visualization and classification dashboard
+	•	 Academic-grade documentation + research-ready structure
+	•	 Extensible architecture for enterprise email defense
 
 ##  Use Cases
 
-- Real-time inbox threat detection  
-- Educational tool for phishing awareness  
-- Prototype for integrating AI with email platforms
+	•	Real-time phishing/scam detection
+	•	Educational phishing-awareness tools
+	•	Corporate inbox threat-scanning prototypes
+	•	Research on adversarial RL and cyber-security
+	•	Integrations with internal mail servers or Gmail extensions
+	
 
-##  How to Run
+## Tech Stack
 
-1. Clone the repo  
-2. Set up Gmail API & download `credentials.json`  
-3. Install dependencies with `pip install -r requirements.txt`  
-4. Run the model: `python scam_filter.py`
+Languages: Python
+Libraries:
+	•	RL / Simulation → OpenAI Gym, PyBullet
+	•	ML / DL → PyTorch, TensorFlow, Keras, scikit-learn
+	•	NLP → NLTK, spaCy
+	•	Utilities → NumPy, Matplotlib
 
-> For privacy: Uses OAuth2.0 token flow and accesses inbox in read-only mode.
+API: Gmail API (OAuth2.0)
+Deployment: Streamlit / Flask UI
+Models: Naive Bayes, LSTM, RL agents (DQN, PG methods)
+
+
+##  Project Responsibilities
+
+	•	Implement RL algorithms for email-based classification
+	•	Run experiments in simulated environments (Gym/PyBullet)
+	•	Build NLP pipelines for email parsing & semantic extraction
+	•	Analyze experimental results & generate visualizations
+	•	Prepare research deliverables (documentation, presentations, papers)
+	•	Weekly updates with faculty supervisors
 
 ## Future Enhancements
+	•	Replace LSTM with BERT/DistilBERT embeddings
+	•	Full Streamlit dashboard for real-time monitoring
+	•	Gmail auto-tagging + alerting system
+	•	Adversarial RL training
+	•	Multi-agent attacker–defender simulation
 
-- Model improvement with transformer-based embeddings (BERT)  
-- UI dashboard using Streamlit  
-- Real-time notifications & Gmail tagging
-
-##  Contact
-
-Created by [Farheen Shaikh](https://www.linkedin.com/in/farheen-shaikh0509)  
-Email: f_shaikh1@u.pacific.edu / farheen.s.shaikh05@gmail.com
 
